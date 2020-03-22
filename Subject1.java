@@ -33,6 +33,7 @@ public class Subject1
 	}
 	
 	// 大神写法
+	// private访问修饰符使fun函数只能在类内部被访问
 	private static int fun(int n){
 		if(n ==1 || n ==2)
 			return 1;
